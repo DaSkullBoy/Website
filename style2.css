@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #000; /* Black */
@@ -21,6 +21,7 @@ header {
 
 .about-content p {
     margin-bottom: 1rem;
+    line-height: 1.5; /* Improved line height for better readability */
 }
 
 .about-content ul {
@@ -36,10 +37,12 @@ header {
     color: #ff0000; /* Red */
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
 }
 
 .about-content a:hover {
     text-decoration: underline;
+    color: #800000; /* Darker Red on Hover */
 }
 
 /* Additional Styling for About Me Page */
@@ -59,14 +62,21 @@ body {
 .discord-button {
     background-color: #ff0000; /* Red */
     color: #fff; /* White */
-    padding: 10px 20px;
+    padding: 12px 24px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 18px;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .discord-button:hover {
     background-color: #800000; /* Darker Red on Hover */
+}
+
+footer {
+    background-color: #333; /* Dark Grey */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
