@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black */
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header {
+    background-color: #333; /* Dark Grey */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.games-content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.games-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+ul li a {
+    color: #ff0000; /* Red */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Smooth color transition on hover */
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #800000; /* Darker Red on Hover */
+}
+
+footer {
+    background-color: #333; /* Dark Grey */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
