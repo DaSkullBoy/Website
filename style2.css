@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0000; /* Black */
+    background-color: #000; /* Black */
     color: #fff;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
@@ -40,4 +40,33 @@ header {
 
 .about-content a:hover {
     text-decoration: underline;
+}
+
+/* Additional Styling for About Me Page */
+body {
+    background-color: #000; /* Black */
+}
+
+.about-content {
+    background-color: #000; /* Black */
+}
+
+.about-content p {
+    color: #fff; /* White */
+}
+
+/* Discord Server Button Styling */
+.discord-button {
+    background-color: #ff0000; /* Red */
+    color: #fff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.discord-button:hover {
+    background-color: #800000; /* Darker Red on Hover */
 }
