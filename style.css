@@ -1,5 +1,58 @@
 body {
- margin: 0;
- background: White;
- text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black */
+    color: #fff;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+header {
+    background-color: #333; /* Dark Grey */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bio {
+    text-align: center;
+    padding: 2rem;
+}
+
+.bio img {
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+}
+
+.buttons {
+    text-align: center;
+    padding: 1rem;
+}
+
+.buttons button {
+    background-color: #ff0000; /* Red */
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #555; /* Dark Grey */
+    color: #ff0000; /* Red */
+}
+
+footer {
+    background-color: #555; /* Dark Grey */
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem; /* Adjusted padding to make it smaller */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
